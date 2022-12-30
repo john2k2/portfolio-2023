@@ -1,5 +1,6 @@
 import React from "react";
 
+
 //images
 import perfil from "@/img/perfil.jpg";
 
@@ -25,7 +26,7 @@ const HeroComp = () => {
           "
           >
             <a
-              href="https://www.linkedin.com/in/john-ortiz-0b1b1b1b1/"
+              href="https://www.linkedin.com/in/jonathan-ortiz-937601136/"
               target="_blank"
               rel="noreferrer"
             >
@@ -43,7 +44,7 @@ const HeroComp = () => {
         <div className="static flex gap-8 xl:fixed xl:left-[10%] xl:top-52 xl:flex-col-reverse 2xl:left-[20%] ">
           <a
             href="
-            #"
+            https://www.linkedin.com/in/jonathan-ortiz-937601136/"
             target="_blank"
             rel="noreferrer"
           >
@@ -53,24 +54,10 @@ const HeroComp = () => {
             />
           </a>
 
-          <a href="#" target="_blank" rel="noreferrer">
+          <a href="https://github.com/john2k2" target="_blank" rel="noreferrer">
             <img
               src="https://img.icons8.com/color/48/000000/github--v1.png"
               alt="github"
-            />
-          </a>
-
-          <a href="#" target="_blank" rel="noreferrer">
-            <img
-              src="https://img.icons8.com/color/48/000000/twitter--v1.png"
-              alt="twitter"
-            />
-          </a>
-
-          <a href="#" target="_blank" rel="noreferrer">
-            <img
-              src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"
-              alt="instagram"
             />
           </a>
         </div>

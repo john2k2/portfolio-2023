@@ -304,7 +304,7 @@ const AboutCompo = () => {
                   alt={item.name}
                 />
                 <p className=" mt-4  w-auto text-center text-xl font-bold text-white ">
-                  Nombre: {item.name}
+                  {item.name}
                 </p>
               </a>
             </div>

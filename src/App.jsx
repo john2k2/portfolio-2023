@@ -3,6 +3,8 @@ import HeaderComp from "@/components/HeaderComp";
 import HeroComp from "./components/HeroComp";
 import AboutCompot from "./components/AboutCompot";
 
+
+
 function App() {
   return (
     <div className="App">
