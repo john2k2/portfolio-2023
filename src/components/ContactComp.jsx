@@ -8,14 +8,15 @@ const ContactComp = () => {
   return (
     <div className="py-8">
       <div className="flex items-center justify-center ">
-        <div className="h-1 w-[34%] bg-cameo md:flex md:w-[30%]  "></div>
-        <h1 className="text-md mx-4 font-extrabold text-cameo md:text-5xl">
+        <div className="h-1 w-[29%] bg-cameo md:flex md:w-[30%]  "></div>
+        <h1 className="text-md mx-4 text-2xl font-extrabold text-cameo md:text-5xl">
+          <a name="contact"></a>
           Contact Me
         </h1>
-        <div className="h-1 w-[34%] bg-cameo md:flex md:w-[30%]"></div>
+        <div className="h-1 w-[29%] bg-cameo md:flex md:w-[30%]"></div>
       </div>
-      <div className=" m-8 mx-auto flex w-[60%] flex-wrap justify-around gap-8">
-        <button className="flex items-center justify-center gap-4 text-2xl  font-bold text-cameo">
+      <div className=" m-8 mx-auto flex  flex-wrap items-center justify-around gap-8 xl:w-[70%] xxl:w-[40%]">
+        <button className="flex items-center justify-center gap-4 rounded-lg  py-2  px-4 text-2xl font-bold text-white ">
           <MailCompot />
           <a
             href="mailto:    
@@ -24,20 +25,52 @@ const ContactComp = () => {
             Ortiz.Jonathan@live.com
           </a>
         </button>
-        <button className="flex items-center justify-center gap-4">
+        <button className="flex items-center justify-center gap-4 rounded-lg  py-2 px-4 ">
           <LocationCompot />
-          <p className="text-2xl font-bold capitalize text-cameo">
+          <p className="text-2xl font-bold capitalize text-white">
             argentina, buenos aires
           </p>
         </button>
-        <button className="flex items-center justify-center gap-4">
+        <button className="flex items-center justify-center gap-4 rounded-lg  py-2 px-4 text-center ">
           <CallCompot />
-          <p className="text-2xl font-bold capitalize text-cameo ">
+          <p className="text-2xl font-bold capitalize text-white  ">
             +54 9 11 2531 2441
           </p>
         </button>
       </div>
       <div className="mx-auto flex h-1 w-full items-end bg-cameo lg:w-[80%]"></div>
+      <div className="m-4 flex justify-center gap-8 xl:hidden">
+        <a
+          href="
+            https://www.linkedin.com/in/jonathan-ortiz-937601136/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="linkedin"
+            target="_blank"
+            rel="noreferrer"
+          />
+        </a>
+
+        <a href="https://github.com/john2k2" target="_blank" rel="noreferrer">
+          <img
+            src="https://img.icons8.com/color/48/000000/github--v1.png"
+            alt="github"
+            target="_blank"
+            rel="noreferrer"
+          />
+        </a>
+        <a href="https://wa.me/1125312441">
+          <img
+            src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+            alt="Enviar mensaje de WhatsApp"
+            target="_blank"
+            rel="noreferrer"
+          />
+        </a>
+      </div>
     </div>
   );
 };

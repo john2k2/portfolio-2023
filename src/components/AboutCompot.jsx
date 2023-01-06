@@ -25,6 +25,7 @@ const AboutCompo = () => {
   return (
     <section className="mx-auto w-[90vw] pb-4 xl:w-[70vw] 2xl:w-[50vw] ">
       <h2 className="py-8 text-4xl font-extrabold text-cameo md:text-6xl">
+        <a name="about"></a>
         About
       </h2>
       <div className="flex items-baseline">
@@ -69,7 +70,7 @@ const AboutCompo = () => {
         </p>
       )}
       <div className="w-full ">
-        <h3 className="py-8 text-6xl font-extrabold text-cameo ">Skills</h3>
+        <h3 className="py-8 text-5xl font-extrabold text-cameo ">Skills</h3>
         <div className=" flex  w-full flex-wrap items-center justify-center gap-8 p-8 ">
           <div
             className="
@@ -290,10 +291,14 @@ const AboutCompo = () => {
         </div>
       </div>
       <div className=" w-full ">
-        <h2 className=" py-8  text-6xl font-extrabold text-cameo">PortFolio</h2>
+        <h2 className=" py-8  text-5xl font-extrabold text-cameo">
+          <a name="portfolio"></a>
+          PortFolio
+        </h2>
         <div className="flex flex-wrap items-center justify-center">
           {about.map((item) => (
             <div
+              key={item.id}
               className="
               relative m-4 flex w-80 flex-col items-center justify-center rounded-xl p-4 capitalize  shadow-xl transition duration-500 ease-in-out  hover:-translate-y-1  hover:scale-110  hover:bg-palesky hover:text-white hover:shadow-lg focus:outline-none md:h-60 md:w-52 lg:h-80 lg:w-80"
             >

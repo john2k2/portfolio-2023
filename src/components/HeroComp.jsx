@@ -1,13 +1,12 @@
 import React from "react";
 
-
 //images
 import perfil from "@/img/perfil.jpg";
 
 const HeroComp = () => {
   return (
     <section className="mx-auto flex h-[50vh]  w-[90vw] flex-col justify-center md:h-auto md:px-4 xl:w-[100vw] 2xl:justify-between  ">
-      <div className=" w-full flex-col items-center justify-center md:flex md:flex-row md:items-center md:justify-between lg:justify-center  ">
+      <div className=" w-full flex-col items-center justify-center md:flex md:flex-row md:items-center md:justify-center lg:justify-center  ">
         <div className="flex w-[100%]  flex-col items-center capitalize md:w-[50%]  ">
           <div className="flex items-baseline justify-center gap-4">
             <p className="pb-4 text-3xl font-light text-white md:text-4xl">
@@ -40,7 +39,7 @@ const HeroComp = () => {
           <img className="  rounded-full " src={perfil} alt="John" />
         </div>
       </div>
-      <div className="mt-8 mb-4 flex justify-center md:justify-start lg:w-auto   lg:justify-end xl:w-10 xl:justify-start ">
+      <div className="mt-8 mb-4 flex justify-center md:justify-center lg:w-auto   lg:justify-center xl:w-10 xl:justify-start ">
         <div className="static flex gap-8 xl:fixed xl:left-[10%] xl:top-52 xl:flex-col-reverse 2xl:left-[20%] ">
           <a
             href="
@@ -58,6 +57,12 @@ const HeroComp = () => {
             <img
               src="https://img.icons8.com/color/48/000000/github--v1.png"
               alt="github"
+            />
+          </a>
+          <a href="https://wa.me/1125312441">
+            <img
+              src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+              alt="Enviar mensaje de WhatsApp"
             />
           </a>
         </div>

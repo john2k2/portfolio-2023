@@ -3,6 +3,11 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        desktop: "1440px",
+        // => @media (min-width: 1280px) { ... }
+        xxl: "2560px",
+      },
       fontFamily: {
         sans: ["Roboto", ...defaultTheme.fontFamily.sans],
       },

@@ -7,7 +7,9 @@ const HeaderComp = () => {
     <header className="flex h-24  w-full items-center justify-center ">
       <div className="m-4 mx-auto flex w-[90vw] items-center justify-around md:w-[90vw] md:justify-between lg:justify-between xl:justify-around ">
         <div>
-          <img className="w-10 rounded-full" src={perfil} alt="John" />
+          <a name="inicio">
+            <img className="w-10 rounded-full" src={perfil} alt="John" />
+          </a>
         </div>
         <nav>
           <ul
@@ -18,19 +20,19 @@ const HeaderComp = () => {
               className="transition-all duration-500 
         ease-in-out hover:text-white "
             >
-              Portfolio
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li
               className="transition-all duration-500 
         ease-in-out hover:text-white "
             >
-              About
+              <a href="#about">About</a>
             </li>
             <li
               className="transition-all duration-500 
         ease-in-out hover:text-white "
             >
-              Contact
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </nav>
