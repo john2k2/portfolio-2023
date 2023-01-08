@@ -62,7 +62,7 @@ const ContactComp = () => {
             rel="noreferrer"
           />
         </a>
-        <a href="https://wa.me/+541125312441">
+        <a href="https://wa.me/+54 11 25312441">
           <img
             src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
             alt="Enviar mensaje de WhatsApp"
