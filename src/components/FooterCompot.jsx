@@ -8,7 +8,8 @@ const FooterCompot = () => {
       </p>
       <button className="flex w-full justify-end ">
         <a href="#inicio">
-          <img className="fixed bottom-0 right-0 mr-4 mb-4 p-4 bg-white/25 rounded-full w-14 hover:bg-white/80 transition-all duration-500 ease-in-out"
+          <img
+            className="fixed bottom-0 right-0 mr-4 mb-4 w-14 rounded-full bg-white/25 p-4 transition-all duration-500 ease-in-out hover:bg-white/80"
             src="https://img.icons8.com/ios-filled/50/000000/chevron-up.png"
             alt="up"
           />
