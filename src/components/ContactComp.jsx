@@ -34,7 +34,7 @@ const ContactComp = () => {
         <button className="flex items-center justify-center gap-4 rounded-lg  py-2 px-4 text-center ">
           <CallCompot />
           <p className="text-2xl font-bold capitalize text-white  ">
-            +54 9 11 2531 2441
+            +351 926144667
           </p>
         </button>
       </div>
@@ -62,7 +62,7 @@ const ContactComp = () => {
             rel="noreferrer"
           />
         </a>
-        <a href="https://wa.me/+54 11 25312441">
+        <a href="https://wa.me/+351 926 144667">
           <img
             src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
             alt="Enviar mensaje de WhatsApp"
