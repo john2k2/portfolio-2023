@@ -4,7 +4,7 @@ const FooterCompot = () => {
   return (
     <div>
       <p className="mx-4 py-4 text-center font-normal capitalize text-white lg:text-xl">
-        Copyrigth 2022 Jonathan Ortiz - All rights reserved - Made with React.
+        Jonathan Ortiz - 2023
       </p>
       <button className="flex w-full justify-end ">
         <a href="#inicio">
