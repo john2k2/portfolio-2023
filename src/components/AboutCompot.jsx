@@ -302,12 +302,22 @@ const AboutCompo = () => {
           ))}
         </div>
         <div className="mb-8 flex w-full justify-center">
-          <button
-            className="
-              mt-4 flex h-14 w-52 items-center justify-center rounded-full border-4 border-[#F9A826] bg-transparent text-xl font-bold text-white transition duration-500 ease-in-out hover:border-transparent hover:bg-[#F9A826] hover:text-white hover:shadow-lg focus:outline-none"
-          >
-            <a href="#">View More</a>
-          </button>
+         {
+
+          (about.length <= 6) 
+          ?
+          null
+          :
+          <a
+          className=" m-8 w-full text-center text-xl font-bold capitalize text-cameo"
+          href="https://app.netlify.com/teams/john2k2/sites"
+          target="_blank"
+          rel="noreferrer"
+        >
+          ver mas...
+        </a>
+          }
+
         </div>
       </div>
     </section>
