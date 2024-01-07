@@ -34,7 +34,7 @@ const ContactComp = () => {
         <button className="flex items-center justify-center gap-4 rounded-lg  py-2 px-4 text-center ">
           <CallCompot />
           <p className="text-2xl font-bold capitalize text-white  ">
-            +351 926144667
+            +35 1124057521
           </p>
         </button>
       </div>
