@@ -198,42 +198,7 @@ const AboutCompo = () => {
               Github
             </p>
           </div>
-          <div
-            className="
-          md:48 flex h-28 w-28  transform cursor-pointer flex-col items-center justify-center rounded-xl bg-bostonblue p-4 shadow-xl transition duration-500 ease-in-out  hover:-translate-y-1  hover:scale-110  hover:bg-palesky hover:text-white hover:shadow-lg focus:outline-none
-          "
-          >
-            <img
-              src="
-          https://img.icons8.com/color/48/000000/npm.png"
-              alt=""
-            />
-            <p
-              className="
-          text-xl font-bold text-white
-            "
-            >
-              NPM
-            </p>
-          </div>
-          <div
-            className="
-          md:48 flex h-28 w-28  transform cursor-pointer flex-col items-center justify-center rounded-xl bg-bostonblue p-4 shadow-xl transition duration-500 ease-in-out  hover:-translate-y-1  hover:scale-110  hover:bg-palesky hover:text-white hover:shadow-lg focus:outline-none
-          "
-          >
-            <img
-              src="
-          https://img.icons8.com/color/48/000000/visual-studio-code-2019.png"
-              alt=""
-            />
-            <p
-              className="
-          text-xl font-bold text-white
-            "
-            >
-              VS Code
-            </p>
-          </div>
+          
           <div
             className="
           md:48 flex h-28 w-28  transform cursor-pointer flex-col items-center justify-center rounded-xl bg-bostonblue p-4 shadow-xl transition duration-500 ease-in-out  hover:-translate-y-1  hover:scale-110  hover:bg-palesky hover:text-white hover:shadow-lg focus:outline-none
@@ -288,6 +253,27 @@ const AboutCompo = () => {
               Wordpress
             </p>
           </div>
+          <div
+            className="
+          md:48 flex h-28 w-28  transform cursor-pointer flex-col items-center justify-center rounded-xl bg-bostonblue p-4 shadow-xl transition duration-500 ease-in-out  hover:-translate-y-1  hover:scale-110  hover:bg-palesky hover:text-white hover:shadow-lg focus:outline-none
+          "
+          >
+            <img
+              src="
+          https://img.icons8.com/color/48/000000/vue-js.png"
+              alt=""
+            />
+            <p
+              className="
+          text-xl font-bold text-white
+          "
+            >
+              Vue JS
+            </p>
+          </div>
+         
+
+
         </div>
       </div>
       <div className=" w-full ">
